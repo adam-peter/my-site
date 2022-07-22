@@ -1,37 +1,52 @@
 /*                      Tag selectors                                    */
-body{
+body {
   margin: 0;
-  background-color: #C8B6E2;
-  font-family: sans-serif;
+  background-color: #A8A4CE;
+  font-family: 'Merriweather', serif;
   text-align: center;
+  color: #E9D5DA;
 }
 
+h1 {
+  font-family: 'Sacramento', cursive;
+}
 
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border: 0;
+  border-top: 1px solid #371B58;
+  width: 70%;
+}
 
 /*                      Class selectors:                                   */
-.container{
+.container {
+  background-color: #C8B6E2;
   position: relative;
   padding-top: 120px;
   padding-bottom: 120px;
+    color: #495C83;
 }
 
-.pro{
-  text-decoration: underline;
-}
-
-.cloud{
+.cloud {
   width: 300px;
   position: absolute;
-}
-.cloud.top{
-  right: 400px;
-  top: 30px;
-}
-.cloud.bottom{
-  bottom: 20px;
-  left: 400px;
+  right: 200px;
+  top: 50px;
 }
 
-.city{
+.city {
+  border-radius: 5%;
+}
 
+.skills{
+  background-color: #7A86B6;
+  color: #C8B6E2;
+}
+
+.contact-me, .bottom-container{
+  background-color: #5B4B8A;
+  color: #C8B6E2;
 }
