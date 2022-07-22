@@ -1,0 +1,37 @@
+/*                      Tag selectors                                    */
+body{
+  margin: 0;
+  background-color: #C8B6E2;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+/*                      Class selectors:                                   */
+.container{
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.cloud{
+  width: 300px;
+  position: absolute;
+}
+.cloud.top{
+  right: 400px;
+  top: 30px;
+}
+.cloud.bottom{
+  bottom: 20px;
+  left: 400px;
+}
+
+.city{
+
+}
