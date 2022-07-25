@@ -1,53 +1,131 @@
 /*                      Tag selectors                                    */
+
 body {
   margin: 0;
   background-color: #A8A4CE;
   font-family: 'Merriweather', serif;
   text-align: center;
-  color: #E9D5DA;
+  color: #371B58;
+  line-height: 1.5;
 }
 
 h1 {
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 75px;
+  font-size: 4.375rem;
+  line-height: 2;
 }
 
-h2, h3 {
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3{
   font-family: 'Montserrat', sans-serif;
 }
 
 hr{
-  border: 0;
-  border-top: 1px solid #371B58;
-  width: 70%;
+  border: 10px dotted #7A86B6;
+  border-bottom: none;
+  width: 60px;
+  margin: 80px auto;
 }
 
 /*                      Class selectors:                                   */
-.container {
-  background-color: #C8B6E2;
-  position: relative;
-  padding-top: 120px;
-  padding-bottom: 120px;
-    color: #495C83;
+.programmer{
+  margin-top: 0;
 }
 
-.cloud {
-  width: 300px;
-  position: absolute;
-  right: 200px;
-  top: 50px;
+.top-container {
+  background-color: #7A86B6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 80px 0;
+}
+.bottom-container{
+  background-color: #816797;
+  margin-top: 30px;
+  padding-bottom: 1em;
+}
+
+.hello-text{
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.skillrow.one{
+  margin-bottom: 100px;
 }
 
 .city {
-  border-radius: 5%;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  border-radius: 50%;
 }
 
-.skills{
-  background-color: #7A86B6;
+.webdev, .data{
+  width: 25%;
+  height: auto;
+}
+.webdev{
+  float: left;
+  margin-right: 30px;
+}
+.data{
+  float:right;
+  margin-left: 30px;
+}
+.welcome, .contact{
+  width: 10%;
+  height: auto;
+}
+
+.contact-text{
+  width: 30%;
+  margin: 20px auto;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #7858A6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 30px auto auto auto;
+}
+.btn:hover {
+  background: #C8B6E2;
+  text-decoration: none;
+}
+
+.footer-link{
+  display: inline-block;
+  color: #371B58;
+  margin: auto 10px auto 10px;
+  font-family: "Monserrat", sans-serif;
+  text-decoration: none;
+}
+.footer-link:hover{
   color: #C8B6E2;
 }
 
-.contact-me, .bottom-container{
-  background-color: #5B4B8A;
+.copyright{
   color: #C8B6E2;
+  font-family: "Monserrat", sans-serif;
 }
